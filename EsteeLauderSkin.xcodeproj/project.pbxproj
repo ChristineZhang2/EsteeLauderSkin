@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283863F7289A4259001BFBA9 /* QuizOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283863F6289A4259001BFBA9 /* QuizOneViewController.swift */; };
+		283863FA289A426E001BFBA9 /* QuizTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283863F9289A426E001BFBA9 /* QuizTwoViewController.swift */; };
+		283863FC289A427C001BFBA9 /* QuizThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283863FB289A427C001BFBA9 /* QuizThreeViewController.swift */; };
+		28386403289B2157001BFBA9 /* BEMPathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283863FF289B2157001BFBA9 /* BEMPathManager.swift */; };
+		28386404289B2157001BFBA9 /* BEMAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28386400289B2157001BFBA9 /* BEMAnimationManager.swift */; };
+		28386405289B2157001BFBA9 /* BEMCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28386401289B2157001BFBA9 /* BEMCheckBox.swift */; };
+		28386406289B2157001BFBA9 /* BEMCheckBoxGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28386402289B2157001BFBA9 /* BEMCheckBoxGroup.swift */; };
+		28386411289B724A001BFBA9 /* MyCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28386410289B724A001BFBA9 /* MyCollectionCell.swift */; };
+		28386413289B7396001BFBA9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28386412289B7396001BFBA9 /* HomeViewController.swift */; };
+		28386415289B7999001BFBA9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28386414289B7999001BFBA9 /* CollectionViewCell.swift */; };
+		28386417289B7B77001BFBA9 /* HViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28386416289B7B77001BFBA9 /* HViewController.swift */; };
+		28386419289B8FF6001BFBA9 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28386418289B8FF6001BFBA9 /* DetailedViewController.swift */; };
+		28779DAD2898E15C00C57D26 /* Sarabun-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28779DAC2898E15C00C57D26 /* Sarabun-Thin.ttf */; };
+		28D047AB2898D8B600916821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D047AA2898D8B600916821 /* AppDelegate.swift */; };
+		28D047AD2898D8B600916821 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D047AC2898D8B600916821 /* SceneDelegate.swift */; };
+		28D047AF2898D8B600916821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D047AE2898D8B600916821 /* ViewController.swift */; };
+		28D047B22898D8B600916821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D047B02898D8B600916821 /* Main.storyboard */; };
+		28D047B72898D8B800916821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D047B62898D8B800916821 /* Assets.xcassets */; };
+		28D047BA2898D8B800916821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D047B82898D8B800916821 /* LaunchScreen.storyboard */; };
+		28D047C52898DC0000916821 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28D047C42898DC0000916821 /* Raleway-VariableFont_wght.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		283863F6289A4259001BFBA9 /* QuizOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOneViewController.swift; sourceTree = "<group>"; };
+		283863F9289A426E001BFBA9 /* QuizTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTwoViewController.swift; sourceTree = "<group>"; };
+		283863FB289A427C001BFBA9 /* QuizThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizThreeViewController.swift; sourceTree = "<group>"; };
+		283863FF289B2157001BFBA9 /* BEMPathManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEMPathManager.swift; sourceTree = "<group>"; };
+		28386400289B2157001BFBA9 /* BEMAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEMAnimationManager.swift; sourceTree = "<group>"; };
+		28386401289B2157001BFBA9 /* BEMCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEMCheckBox.swift; sourceTree = "<group>"; };
+		28386402289B2157001BFBA9 /* BEMCheckBoxGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEMCheckBoxGroup.swift; sourceTree = "<group>"; };
+		28386409289B2370001BFBA9 /* CheckBoxHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckBoxHeader.h; sourceTree = "<group>"; };
+		28386410289B724A001BFBA9 /* MyCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionCell.swift; sourceTree = "<group>"; };
+		28386412289B7396001BFBA9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		28386414289B7999001BFBA9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		28386416289B7B77001BFBA9 /* HViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HViewController.swift; sourceTree = "<group>"; };
+		28386418289B8FF6001BFBA9 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		28779DAC2898E15C00C57D26 /* Sarabun-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sarabun-Thin.ttf"; sourceTree = "<group>"; };
+		28D047A72898D8B600916821 /* EsteeLauderSkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsteeLauderSkin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D047AA2898D8B600916821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28D047AC2898D8B600916821 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28D047AE2898D8B600916821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28D047B12898D8B600916821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28D047B62898D8B800916821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28D047B92898D8B800916821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28D047BB2898D8B800916821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D047C42898DC0000916821 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28D047A42898D8B600916821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283863F8289A425E001BFBA9 /* Quizzes */ = {
+			isa = PBXGroup;
+			children = (
+				283863F6289A4259001BFBA9 /* QuizOneViewController.swift */,
+				28386409289B2370001BFBA9 /* CheckBoxHeader.h */,
+				283863F9289A426E001BFBA9 /* QuizTwoViewController.swift */,
+				283863FB289A427C001BFBA9 /* QuizThreeViewController.swift */,
+			);
+			path = Quizzes;
+			sourceTree = "<group>";
+		};
+		283863FE289B2157001BFBA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				283863FF289B2157001BFBA9 /* BEMPathManager.swift */,
+				28386400289B2157001BFBA9 /* BEMAnimationManager.swift */,
+				28386401289B2157001BFBA9 /* BEMCheckBox.swift */,
+				28386402289B2157001BFBA9 /* BEMCheckBoxGroup.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		28D0479E2898D8B600916821 = {
+			isa = PBXGroup;
+			children = (
+				28D047A92898D8B600916821 /* EsteeLauderSkin */,
+				28D047A82898D8B600916821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28D047A82898D8B600916821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28D047A72898D8B600916821 /* EsteeLauderSkin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28D047A92898D8B600916821 /* EsteeLauderSkin */ = {
+			isa = PBXGroup;
+			children = (
+				283863FE289B2157001BFBA9 /* Classes */,
+				283863F8289A425E001BFBA9 /* Quizzes */,
+				28D047C32898DBDC00916821 /* Fonts */,
+				28D047AA2898D8B600916821 /* AppDelegate.swift */,
+				28D047AC2898D8B600916821 /* SceneDelegate.swift */,
+				28D047AE2898D8B600916821 /* ViewController.swift */,
+				28D047B02898D8B600916821 /* Main.storyboard */,
+				28D047B62898D8B800916821 /* Assets.xcassets */,
+				28D047B82898D8B800916821 /* LaunchScreen.storyboard */,
+				28D047BB2898D8B800916821 /* Info.plist */,
+				28386410289B724A001BFBA9 /* MyCollectionCell.swift */,
+				28386412289B7396001BFBA9 /* HomeViewController.swift */,
+				28386414289B7999001BFBA9 /* CollectionViewCell.swift */,
+				28386416289B7B77001BFBA9 /* HViewController.swift */,
+				28386418289B8FF6001BFBA9 /* DetailedViewController.swift */,
+			);
+			path = EsteeLauderSkin;
+			sourceTree = "<group>";
+		};
+		28D047C32898DBDC00916821 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				28D047C42898DC0000916821 /* Raleway-VariableFont_wght.ttf */,
+				28779DAC2898E15C00C57D26 /* Sarabun-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28D047A62898D8B600916821 /* EsteeLauderSkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D047BE2898D8B800916821 /* Build configuration list for PBXNativeTarget "EsteeLauderSkin" */;
+			buildPhases = (
+				28D047A32898D8B600916821 /* Sources */,
+				28D047A42898D8B600916821 /* Frameworks */,
+				28D047A52898D8B600916821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EsteeLauderSkin;
+			productName = EsteeLauderSkin;
+			productReference = 28D047A72898D8B600916821 /* EsteeLauderSkin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28D0479F2898D8B600916821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					28D047A62898D8B600916821 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 28D047A22898D8B600916821 /* Build configuration list for PBXProject "EsteeLauderSkin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28D0479E2898D8B600916821;
+			productRefGroup = 28D047A82898D8B600916821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28D047A62898D8B600916821 /* EsteeLauderSkin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28D047A52898D8B600916821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D047BA2898D8B800916821 /* LaunchScreen.storyboard in Resources */,
+				28779DAD2898E15C00C57D26 /* Sarabun-Thin.ttf in Resources */,
+				28D047C52898DC0000916821 /* Raleway-VariableFont_wght.ttf in Resources */,
+				28D047B72898D8B800916821 /* Assets.xcassets in Resources */,
+				28D047B22898D8B600916821 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28D047A32898D8B600916821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283863F7289A4259001BFBA9 /* QuizOneViewController.swift in Sources */,
+				28D047AF2898D8B600916821 /* ViewController.swift in Sources */,
+				28386419289B8FF6001BFBA9 /* DetailedViewController.swift in Sources */,
+				28386403289B2157001BFBA9 /* BEMPathManager.swift in Sources */,
+				28386404289B2157001BFBA9 /* BEMAnimationManager.swift in Sources */,
+				28386411289B724A001BFBA9 /* MyCollectionCell.swift in Sources */,
+				28386417289B7B77001BFBA9 /* HViewController.swift in Sources */,
+				28386405289B2157001BFBA9 /* BEMCheckBox.swift in Sources */,
+				283863FA289A426E001BFBA9 /* QuizTwoViewController.swift in Sources */,
+				28D047AB2898D8B600916821 /* AppDelegate.swift in Sources */,
+				28386415289B7999001BFBA9 /* CollectionViewCell.swift in Sources */,
+				28386406289B2157001BFBA9 /* BEMCheckBoxGroup.swift in Sources */,
+				283863FC289A427C001BFBA9 /* QuizThreeViewController.swift in Sources */,
+				28D047AD2898D8B600916821 /* SceneDelegate.swift in Sources */,
+				28386413289B7396001BFBA9 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28D047B02898D8B600916821 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28D047B12898D8B600916821 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28D047B82898D8B800916821 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28D047B92898D8B800916821 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28D047BC2898D8B800916821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28D047BD2898D8B800916821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28D047BF2898D8B800916821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68ZL7L38AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EsteeLauderSkin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christinepracticing.EsteeLauderSkin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28D047C02898D8B800916821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68ZL7L38AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EsteeLauderSkin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.christinepracticing.EsteeLauderSkin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28D047A22898D8B600916821 /* Build configuration list for PBXProject "EsteeLauderSkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D047BC2898D8B800916821 /* Debug */,
+				28D047BD2898D8B800916821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28D047BE2898D8B800916821 /* Build configuration list for PBXNativeTarget "EsteeLauderSkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D047BF2898D8B800916821 /* Debug */,
+				28D047C02898D8B800916821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28D0479F2898D8B600916821 /* Project object */;
+}
